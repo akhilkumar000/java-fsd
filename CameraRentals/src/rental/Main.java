@@ -21,7 +21,7 @@ public class Main {
 		if (userCredentials.containsKey(userName)&& userCredentials.get(userName).equals(passWord)) {
 			List<Camera> cameraList = new ArrayList<>();
 			Wallet account=new Wallet();
-			System.out.println(account);
+			
 			startOver(cameraList,account);
 			}
 		else {
@@ -77,6 +77,7 @@ public class Main {
 			break;
 		case 5:
 			System.out.println("THANKS FOR VISITING PLEASE COME AGAIN");
+			break;
 		}
 		
 	
